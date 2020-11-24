@@ -1,5 +1,7 @@
+import React from 'react'
 import checkPropTypes from 'check-prop-types';
 import { applyMiddleware, createStore } from 'redux';
+// import { shallow } from 'enzyme'
 import rootReducer from './../src/reducers';
 import { middlewares } from './../src/createStore';
 
